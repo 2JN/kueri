@@ -16,6 +16,7 @@ model User {
   updatedAt DateTime @updatedAt
   email String @unique
   password String
+  refresh_token String?
   firstName String?
   lastName String?
 }
